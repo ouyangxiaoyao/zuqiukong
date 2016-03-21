@@ -53,7 +53,7 @@
     [vc.tabBarItem setSelectedImage:[[ZHSkinTool skinToolWithThemeImg:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     vc.title = title;
 }
-
+//进行换肤设置
 - (void)setTeamTheme
 {
     NSArray *imgArray = imgArray0;
